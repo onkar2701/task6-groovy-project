@@ -1,7 +1,7 @@
 job("Groovy 1"){
   description("This is first job of groovy project")
 	scm {
-		github('onkar2701/groovy-task','master')
+		github('onkar2701/task6-groovy-project','master')
 	}
      		
 	triggers {
@@ -69,7 +69,7 @@ job("Groovy 3")
 	echo " Website is working properly!!"
 	else
 	cd /code
-	python3 test_mail.py
+	python3 failure_mail.py
 	fi
 	''')
       }
