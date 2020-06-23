@@ -1,8 +1,8 @@
 import smtplib
 
-sender_email = 'onkarkadam27@gmail.com'
-receiver = 'sumitpol1995@gmail.com'
-password = 'Onkarkadam@2027'
+sender_email = 'mail_id'
+receiver = 'mail_id'
+password = 'Gmail Password'
 message = "The Website is not running properly."
 server =smtplib.SMTP('smtp.gmail.com',587)
 server.starttls()
