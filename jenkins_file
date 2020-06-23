@@ -75,6 +75,17 @@ job("Groovy 3")
       }
 }
 
+buildPipelineView('Groovy project') {
+    filterBuildQueue()
+    filterExecutors()
+    title('Groovy Pipeline')
+    displayedBuilds(3)
+    selectedJob('Groovy 1')
+    alwaysAllowManualTrigger()
+    showPipelineParameters()
+    refreshFrequency(30)
+}
+
 
 
 
